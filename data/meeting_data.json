@@ -1,0 +1,38 @@
+{
+  "meeting_id": "INT-001",
+  "candidate_metadata": {
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com"
+  },
+  "events": [
+    {
+      "timestamp": 0,
+      "type": "participant_join",
+      "participant_id": "P1",
+      "display_name": "MacBook Pro"
+    },
+    {
+      "timestamp": 2,
+      "type": "participant_join",
+      "participant_id": "P2",
+      "display_name": "John HR"
+    },
+    {
+      "timestamp": 4,
+      "type": "camera_on",
+      "participant_id": "P1"
+    },
+    {
+      "timestamp": 6,
+      "type": "transcript",
+      "participant_id": "P2",
+      "text": "Hello Rahul, can you introduce yourself?"
+    },
+    {
+      "timestamp": 9,
+      "type": "transcript",
+      "participant_id": "P1",
+      "text": "Hello, my name is Rahul Sharma."
+    }
+  ]
+}
