@@ -21,6 +21,19 @@
 - 📄 Automatic PDF Investigation Report
 - 🏆 Professional GitHub Documentation
 
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Programming Language | Python 3.12 |
+| Frontend | Streamlit |
+| Backend | Python |
+| AI / NLP | RapidFuzz |
+| Data Visualization | Matplotlib |
+| PDF Reports | ReportLab |
+| Testing | Python unittest |
+| Version Control | Git & GitHub |
+
 # 📌 Project Overview
 
 Sherlock AI Candidate Identifier is an explainable AI system designed to identify the real interview candidate in online meetings using multiple evidence sources instead of relying on a single signal.
