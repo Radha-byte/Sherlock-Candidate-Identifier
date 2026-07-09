@@ -290,8 +290,8 @@ ReportGenerator.generate(best, simulator)
 with open("Sherlock_Report.pdf", "rb") as pdf:
 
      st.download_button(
-      label="📄 Download Investigation Report",
-       data=pdf.read(),
+       label="📄 Download Investigation Report",
+        data=pdf.read(),
         file_name="Sherlock_Report.pdf",
         mime="application/pdf",
     )
