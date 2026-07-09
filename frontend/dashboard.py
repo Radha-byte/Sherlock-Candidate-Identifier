@@ -285,13 +285,13 @@ for i, participant in enumerate(ranked, start=1):
 # PDF REPORT
 # -------------------------------
 
-ReportGenerator.generate(best, simulator)
+# ReportGenerator.generate(best, simulator)
 
-with open("Sherlock_Report.pdf", "rb") as pdf:
+# with open("Sherlock_Report.pdf", "rb") as pdf:
 
-    st.download_button(
-        label="📄 Download Investigation Report",
-        data=pdf.read(),
-        file_name="Sherlock_Report.pdf",
-        mime="application/pdf",
-    )
+#     st.download_button(
+#         label="📄 Download Investigation Report",
+#         data=pdf.read(),
+#         file_name="Sherlock_Report.pdf",
+#         mime="application/pdf",
+#     )
