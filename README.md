@@ -70,23 +70,61 @@ Dashboard + PDF Report
 
 ---
 
-# 📊 Dashboard
+# 📊 Dashboard Preview
 
-> Replace the images below with screenshots from your project.
-
-## Dashboard Overview
-
-![Dashboard](screenshots/dashboard.png)
-
-## Evidence Contribution
-
-![Evidence](screenshots/evidence.png)
-
-## Confidence Evolution
-
-![Confidence](screenshots/confidence.png)
+The Sherlock AI dashboard provides real-time visualization of candidate identification using multiple evidence sources. It displays participant confidence scores, AI reasoning, evidence contribution, confidence evolution, meeting timeline, and investigation report generation.
 
 ---
+
+## 🏠 Main Dashboard (Top Section)
+
+![Dashboard Top](screenshots/dashboard_1.png)
+
+---
+
+## 📋 Main Dashboard (Bottom Section)
+
+![Dashboard Bottom](screenshots/dashboard_2.png)
+
+---
+
+## 📈 Confidence Evolution
+
+This graph shows how the confidence score changes as new evidence is collected during the interview.
+
+![Confidence Evolution](screenshots/confidence_evolution.png)
+
+---
+
+## 🥧 Evidence Contribution
+
+This pie chart illustrates how each evidence source contributes to the final confidence score.
+
+![Evidence Contribution](screenshots/evidence.png)
+
+---
+
+## 🎯 Confidence Fusion
+
+The Confidence Fusion Engine combines metadata, transcript analysis, camera activity, speaking behavior, face recognition, and voice recognition into a single confidence score.
+
+![Confidence Fusion](screenshots/confidence_fusion.png)
+
+---
+
+## 📋 Meeting Timeline
+
+The dashboard also visualizes all interview events in chronological order.
+
+![Meeting Timeline](screenshots/timeline.png)
+
+---
+
+## 📄 Investigation Report
+
+The application can generate a downloadable PDF report summarizing the entire investigation.
+
+![Report](screenshots/report.png)
 
 # 📂 Project Structure
 
