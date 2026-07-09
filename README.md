@@ -3,14 +3,9 @@
 > 🚀 **An explainable AI system that identifies the real interview candidate in live meetings using multiple evidence sources and confidence fusion.**
 
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
-
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
-
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
 [![AI](https://img.shields.io/badge/Artificial%20Intelligence-Multi--Evidence-success)](https://en.wikipedia.org/wiki/Artificial_intelligence)
-
 [![Status](https://img.shields.io/badge/Project-Completed-brightgreen)](https://github.com/Radha-byte/Sherlock-Candidate-Identifier)
-
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 ---
