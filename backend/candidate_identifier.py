@@ -3,11 +3,19 @@ import json
 from backend.metadata_engine import MetadataEngine
 from backend.transcript_engine import TranscriptEngine
 from backend.confidence_engine import ConfidenceEngine
-
+from backend.camera_engine import CameraEngine
+from backend.speaking_engine import SpeakingEngine
+from backend.face_engine import FaceEngine
 
 class CandidateIdentifier:
 
     def __init__(self, simulator):
+
+        self.camera_engine = CameraEngine()
+
+        self.speaking_engine = SpeakingEngine()
+
+        self.face_engine = FaceEngine()
 
         self.simulator = simulator
 
@@ -36,18 +44,34 @@ class CandidateIdentifier:
 
             if event.event_type == "camera_on":
                 participant.camera_on = True
+                self.camera_engine.process(participant)
+                self.face_engine.process(participant)
 
             elif event.event_type == "transcript":
+
+                participant.speaking_duration += event.duration
+                
                 self.transcript_engine.analyze_event(
                     participant,
                     event.text
                 )
 
-            ConfidenceEngine.calculate(participant)
+                self.speaking_engine.process(participant)
+
+            for p in self.participants:
+                ConfidenceEngine.calculate(p)
 
     def get_best_candidate(self):
 
         return max(
             self.participants,
             key=lambda p: p.confidence
+        )
+    
+    def get_ranked_candidates(self):
+
+        return sorted(
+            self.participants,
+            key=lambda p: p.confidence,
+            reverse=True
         )

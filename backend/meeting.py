@@ -27,7 +27,8 @@ class MeetingSimulator:
                 event_type=event["type"],
                 participant_id=event["participant_id"],
                 text=event.get("text", ""),
-                display_name=event.get("display_name", "")
+                display_name=event.get("display_name", ""),
+                duration=event.get("duration", 0)
             )
 
             self.events.append(meeting_event)

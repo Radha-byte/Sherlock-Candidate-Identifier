@@ -23,16 +23,25 @@
       "participant_id": "P1"
     },
     {
-      "timestamp": 6,
-      "type": "transcript",
-      "participant_id": "P2",
-      "text": "Hello Rahul, can you introduce yourself?"
-    },
-    {
-      "timestamp": 9,
-      "type": "transcript",
-      "participant_id": "P1",
-      "text": "Hello, my name is Rahul Sharma."
-    }
+  "timestamp": 6,
+  "type": "transcript",
+  "participant_id": "P2",
+  "duration": 4,
+  "text": "Hello Rahul, can you introduce yourself?"
+},
+{
+  "timestamp": 9,
+  "type": "transcript",
+  "participant_id": "P1",
+  "duration": 18,
+  "text": "Hello, my name is Rahul Sharma."
+},
+{
+  "timestamp": 30,
+  "type": "transcript",
+  "participant_id": "P1",
+  "duration": 15,
+  "text": "I recently completed my B.Tech in Computer Science and enjoy working on AI projects."
+}
   ]
 }

@@ -18,6 +18,8 @@ class Participant:
 
     email: str = ""
 
+    status: str = "Unknown"
+
     camera_on: bool = False
 
     microphone_on: bool = False
@@ -29,3 +31,5 @@ class Participant:
     evidence: List[Evidence] = field(default_factory=list)
 
     confidence: float = 0.0
+
+    confidence_history: List[float] = field(default_factory=list)
