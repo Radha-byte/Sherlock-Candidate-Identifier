@@ -1,9 +1,11 @@
 # 🕵️ Sherlock AI Candidate Identifier
 
-> 🚀 **An explainable AI system that identifies the real interview candidate in live meetings using multiple evidence sources and confidence fusion.**
+### Real-Time Multi-Evidence Candidate Identification System
 
+> 🚀 **An explainable AI system that identifies the real interview candidate in live meetings using metadata, transcript intelligence, camera activity, speaking behavior, simulated face recognition, simulated voice recognition, and confidence fusion.**
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)
 [![AI](https://img.shields.io/badge/Artificial%20Intelligence-Multi--Evidence-success)](https://en.wikipedia.org/wiki/Artificial_intelligence)
 [![Status](https://img.shields.io/badge/Project-Completed-brightgreen)](https://github.com/Radha-byte/Sherlock-Candidate-Identifier)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
@@ -33,6 +35,18 @@
 | PDF Reports | ReportLab |
 | Testing | Python unittest |
 | Version Control | Git & GitHub |
+
+## 📊 Project Statistics
+
+| Metric | Value |
+|---------|------:|
+| AI Evidence Engines | 6 |
+| Dashboard Pages | 1 |
+| Python Modules | 20+ |
+| Test Files | 4 |
+| Charts & Visualizations | 3 |
+| PDF Report Generator | ✅ |
+| Explainable AI Reasoning | ✅ |
 
 # 📌 Project Overview
 
@@ -154,16 +168,24 @@ The application can generate a downloadable PDF report summarizing the entire in
 
 ```text
 Sherlock-Candidate-Identifier/
-
-backend/
-frontend/
-data/
-tests/
-docs/
-
-app.py
-README.md
-requirements.txt
+│
+├── backend/
+├── frontend/
+├── tests/
+├── data/
+├── docs/
+├── screenshots/
+├── models/
+├── config/
+├── utils/
+├── assets/
+├── demo/
+├── architecture/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -208,6 +230,12 @@ Run
 streamlit run app.py
 ```
 
+After launching the application, open the following URL in your browser:
+
+```text
+http://localhost:8501
+```
+
 ---
 
 # 📈 AI Evidence Sources
@@ -234,15 +262,18 @@ The application automatically generates a downloadable PDF investigation report 
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-- Real Face Recognition (InsightFace)
-- Speaker Verification
-- Deepfake Detection
-- Voice Clone Detection
-- Multi-camera Tracking
-- Real Zoom/Meet Integration
-- LLM-based Interview Understanding
+- 🔴 Live Google Meet Integration
+- 🔴 Live Microsoft Teams Integration
+- 🔴 Live Zoom Integration
+- 🔴 Deep Learning Face Recognition
+- 🔴 Voice Biometrics
+- 🔴 Deepfake Detection
+- 🔴 Liveness Detection
+- 🔴 REST API
+- 🔴 Docker Deployment
+- 🔴 Cloud Deployment (AWS/Azure)
 
 ---
 
