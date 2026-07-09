@@ -115,8 +115,9 @@ Candidate Ranking
       │
       ▼
 Dashboard + PDF Report
-
+```
 ---
+
 
 ## 🖥 Dashboard Preview
 
