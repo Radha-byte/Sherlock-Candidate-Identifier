@@ -11,6 +11,7 @@ import streamlit as st
 from backend.meeting import MeetingSimulator
 from backend.candidate_identifier import CandidateIdentifier
 from backend.report_generator import ReportGenerator
+from backend.fusion_engine import FusionEngine
 
 # -------------------------------
 # PAGE CONFIG
@@ -34,6 +35,7 @@ identifier.process_events()
 
 participants = simulator.get_participants()
 best = identifier.get_best_candidate()
+fusion = FusionEngine.get_breakdown(best)
 ranked = identifier.get_ranked_candidates()
 
 if best is None:
@@ -194,6 +196,24 @@ with left_bottom:
     st.pyplot(fig, width="content")
 
     plt.close(fig)
+
+    st.divider()
+
+    st.subheader("🧠 Confidence Fusion")
+
+    for item in fusion:
+
+        st.write(
+            f"**{item['source']}**"
+        )
+
+        st.progress(
+            item["percentage"] / 100
+        )
+
+        st.caption(
+            f"{item['score']:.2f} points ({item['percentage']}%)"
+        )
 
 # ==========================================
 # RIGHT BOTTOM
