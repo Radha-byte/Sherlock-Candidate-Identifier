@@ -2,7 +2,6 @@
 
 > 🚀 **An explainable AI system that identifies the real interview candidate in live meetings using multiple evidence sources and confidence fusion.**
 
-> **Real-Time Multi-Evidence AI System for Identifying Interview Candidates During Live Meetings**
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)
