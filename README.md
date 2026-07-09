@@ -1,5 +1,7 @@
 # 🕵️ Sherlock AI Candidate Identifier
 
+> 🚀 **An explainable AI system that identifies the real interview candidate in live meetings using multiple evidence sources and confidence fusion.**
+
 > **Real-Time Multi-Evidence AI System for Identifying Interview Candidates During Live Meetings**
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
@@ -9,6 +11,17 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ---
+
+## 🌟 Highlights
+
+- 🕵️ Multi-Evidence Candidate Identification
+- 🤖 Explainable AI Decision Making
+- 📊 Interactive Streamlit Dashboard
+- 📈 Confidence Evolution Tracking
+- 🥧 Evidence Contribution Visualization
+- 📋 Meeting Timeline
+- 📄 Automatic PDF Investigation Report
+- 🏆 Professional GitHub Documentation
 
 # 📌 Project Overview
 
