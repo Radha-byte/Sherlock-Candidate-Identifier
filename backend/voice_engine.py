@@ -1,28 +1,30 @@
 from backend.participant_models import Evidence
 
 
-class FaceEngine:
+class VoiceEngine:
 
     def process(self, participant):
 
+        # Remove previous Voice Recognition evidence
         participant.evidence = [
             e for e in participant.evidence
-            if e.source != "Face Recognition"
+            if e.source != "Voice Recognition"
         ]
 
+        # Simulated voice embedding similarity
         if participant.display_name == "MacBook Pro":
 
-            score = 25
-            reason = "Face embedding matched registered candidate (92%)"
+            score = 18
+            reason = "Voice embedding matched registered candidate (89%)"
 
         else:
 
-            score = 2
-            reason = "Face similarity very low"
+            score = 3
+            reason = "Voice similarity very low"
 
         participant.evidence.append(
             Evidence(
-                source="Face Recognition",
+                source="Voice Recognition",
                 score=score,
                 reason=reason
             )

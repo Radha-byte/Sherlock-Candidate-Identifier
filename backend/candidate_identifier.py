@@ -6,6 +6,7 @@ from backend.confidence_engine import ConfidenceEngine
 from backend.camera_engine import CameraEngine
 from backend.speaking_engine import SpeakingEngine
 from backend.face_engine import FaceEngine
+from backend.voice_engine import VoiceEngine
 
 class CandidateIdentifier:
 
@@ -16,6 +17,8 @@ class CandidateIdentifier:
         self.speaking_engine = SpeakingEngine()
 
         self.face_engine = FaceEngine()
+
+        self.voice_engine = VoiceEngine()
 
         self.simulator = simulator
 
@@ -55,6 +58,8 @@ class CandidateIdentifier:
                     participant,
                     event.text
                 )
+
+                self.voice_engine.process(participant)
 
                 self.speaking_engine.process(participant)
 
