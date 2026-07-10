@@ -12,6 +12,13 @@
 
 ---
 
+
+# 🎥 Demo Video
+
+▶️ [Watch the Project Demo](https://drive.google.com/file/d/1PxOMERLHL4CFneu9p99Rl39it3nO0MWN/view?usp=sharing)
+
+
+
 ## 🌟 Highlights
 
 - 🕵️ Multi-Evidence Candidate Identification
@@ -49,9 +56,6 @@
 | PDF Report Generator | ✅ |
 | Explainable AI Reasoning | ✅ |
 
-# 🎥 Demo Video
-
-▶️ [Watch the Project Demo](https://drive.google.com/file/d/1PxOMERLHL4CFneu9p99Rl39it3nO0MWN/view?usp=sharing)
 
 # 📌 Project Overview
 
