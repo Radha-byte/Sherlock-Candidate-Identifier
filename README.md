@@ -49,6 +49,10 @@
 | PDF Report Generator | ✅ |
 | Explainable AI Reasoning | ✅ |
 
+# 🎥 Demo Video
+
+▶️ [Watch the Project Demo](https://drive.google.com/file/d/1PxOMERLHL4CFneu9p99Rl39it3nO0MWN/view?usp=sharing)
+
 # 📌 Project Overview
 
 Sherlock AI Candidate Identifier is an explainable AI system designed to identify the real interview candidate in online meetings using multiple evidence sources instead of relying on a single signal.
@@ -314,7 +318,7 @@ The prototype demonstrates explainable candidate identification using multiple e
 # 🏗 Architecture
 
    <p align="center">
-  <img src="docs/architecture.png" width="400">
+  <img src="docs/architecture.png" width="500">
    </p>
 
    Meeting events flow through a simulator and participant manager into six independent evidence engines (metadata, transcript, camera, speaking, face, voice — see Assumptions for which are simulated). Each engine scores independently; a weighted-sum fusion stage combines them into one confidence score, which drives candidate ranking, the live dashboard, and the PDF report.
