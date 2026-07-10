@@ -159,6 +159,8 @@ The Confidence Fusion Engine combines metadata, transcript analysis, camera acti
 
 ![Confidence Fusion](screenshots/confidence_fusion.png)
 
+"Each source contributes up to its own weight cap; combined raw score is capped at 100% for the final confidence."
+
 ---
 
 ## 📋 Meeting Timeline
