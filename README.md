@@ -311,9 +311,13 @@ The prototype demonstrates explainable candidate identification using multiple e
 
 # 🏗 Architecture
 
-See
+   ![Sherlock AI Architecture](docs/architecture.png)
+
+   Meeting events flow through a simulator and participant manager into six independent evidence engines (metadata, transcript, camera, speaking, face, voice — see Assumptions for which are simulated). Each engine scores independently; a weighted-sum fusion stage combines them into one confidence score, which drives candidate ranking, the live dashboard, and the PDF report.
 
 ```
+
+You can also view a rough idea from:
 docs/architecture.md
 ```
 
